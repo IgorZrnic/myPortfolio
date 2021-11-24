@@ -1,0 +1,172 @@
+#top {
+
+  background-image: url("img/background.jpg");
+  background-size: cover;
+  background-position: center;
+  color: white;
+  padding: auto;
+  font-family: 'Pacifico', cursive;
+  text-align: center;
+  padding-top: 8%;
+  padding-bottom: 30%;
+  font-size: 2em;
+  text-shadow: -2px -2px 4px #ffffff;
+
+}
+/*#top h1 {
+    margin: 0 auto;
+}*/
+#middle {
+  display: grid;
+  grid-template-columns: 25% 25% 25% 25%;
+  grid-template-rows: auto;
+  text-align: center;
+}
+
+.projects {
+    border: 1px solid rgb(0, 102, 102);
+    border-top: none;
+    padding: auto;
+    margin: none;
+    font-family: 'PT Serif', serif;
+}
+
+img {
+    max-width: 150px;
+    max-height: 150px;
+    margin: auto;
+}
+#project1 img {
+    margin: 40px 0px;
+    background-color: white;
+}
+#project1 {
+    background-color: #338552;
+}
+#project2 {
+    background-color: #267d57
+}
+#project3 {
+    background-color: #19755c
+}
+#project4 {
+    background-color: #0d6e61
+}
+
+.projects a {
+  text-decoration: none;
+}
+.projects a:hover {
+  color: white;
+  font-size: 110%;
+}
+
+.projectsTitle {
+    text-align: center;
+    color: white;
+    background-color: #006666;
+    margin: 0 auto;
+    font-family: 'PT Serif', serif;
+    font-size: 3vw;
+    text-shadow: 2px 2px 4px #000000;
+    padding: 15px;
+    }
+
+
+
+
+@keyframes fadeIn {
+  0% {
+    opacity:0;
+  }
+  100% {
+    opacity:1;
+  }
+}
+
+.fade-in {
+  animation: fadeIn 8.0s ;
+  
+}
+
+@keyframes slidein {
+  from { transform: scaleX(0); }
+  to   { transform: scaleX(1); }
+}
+
+.slide-in {
+animation: slidein 2.0s;
+animation-delay: 2.0s;
+}
+
+.contact {
+  display: grid;
+  grid-template-columns: auto;
+  grid-template-rows: auto;
+  text-align: center;
+}
+
+.contactTitle {
+    text-align: center;
+    color: white;
+    background-color: #006666;
+    margin: 0 auto;
+    font-family: 'PT Serif', serif;
+    /*font-size: 3vw;*/
+    text-shadow: 2px 2px 4px #000000;
+    padding: 15px;
+}
+
+.contactTitle h3 {
+  margin: 0;
+  font-size: 3vw;
+}
+.contact a {
+  text-decoration: none;
+  color: #000000;
+  
+}
+.contact {
+  /*background-color: #006666;*/
+  color: #ffffff;
+  background-image: url("img/geometric-decoration.jpg");
+  background-size: cover;
+  background-position: center;
+}
+.contact p {
+  margin: 5px;
+  font-size: 1.6em;
+}
+
+
+
+
+
+
+
+
+
+
+@media only screen and (max-width: 768px) {
+
+  /* For mobile phones: */
+
+  #middle {
+
+    display: grid;
+
+    grid-template-columns: 100%;
+
+    grid-template-rows: auto;
+
+    text-align: center;
+
+    font-size: 3vw;
+
+  }
+ #top {
+     padding-top: 4%;
+     font-size: 1em;;
+ }
+
+ }
